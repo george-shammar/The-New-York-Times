@@ -1,73 +1,70 @@
-* {
+/* * {
 margin: 0;
 padding: 0;
 
+} */
+
+.flex-container {
+  display: flex;
+  flex-flow: nowrap;
+  height: 35px;
+  border-bottom: solid gray 1px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-width: 0.1px;
 }
 
-.navbar{
-max-height: 80px;
-}
-.nav-right{
-left: 0;
-}
-.nav-left{
-    /*display: flex;*/
-    justify-content: space-between;
-}
-.navimg{
-    max-height: 30px;
-    margin-left: 380px;
-    margin-right: 350px;
-}
-.d-flex{
-    display: flex;
-    flex-flow: nowrap;
-    align-content: flex-start;
-}
-.header{
-    color: #666;
-    margin-left: 260px;
-    margin-top: 200px;
-}
-.header span {
-    
-    font-size: smaller;
-}
-.headerText{
-/* position: relative; */
-    /* margin-left: 420px; */
-    color: #121212;
-    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
-    font-weight: 700;
-    font-style: italic;
-}
-.container{
-    margin-left: 420px;
-    margin-right: 420px;
-    margin-top: 60px;
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+.category {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
 }
 
-.flex-container{
-    display: flex;
-    flex-flow: nowrap;
-    height: 35px;
-    border-bottom: solid gray 1px;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-width: 0.1px;
-    
+.navimg {
+  max-height: 30px;
+  margin-left: 380px;
+  margin-right: 300px;
 }
 
-.left-btn{
-    background-color: rgb(86, 123, 149);
-    color: white;
-    height: 25px;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
+.left-btn {
+  background-color: rgb(86, 123, 149);
+  color: white;
+  height: 25px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
-.category{
-    font-family: nyt-franklin,helvetica,arial,sans-serif;
-    font-weight: 700;
+.header {
+  color: #666;
+  margin-left: 260px;
+  margin-top: 200px;
+}
+
+.headerText {
+  color: #121212;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+  font-weight: 700;
+  font-style: italic;
+  margin-left: 200px;
+}
+
+#header-image {
+  width: 1000px;
+  height: 550px;
+}
+
+.container {
+  margin-left: 420px;
+  margin-right: 420px;
+  margin-top: 60px;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+}
+
+.embed {
+  width: 700px;
+  height: 400px;
+}
+
+.img-img {
+  width: 600px;
+  height: 400px;
 }
