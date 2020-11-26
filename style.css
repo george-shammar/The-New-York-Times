@@ -1,3 +1,43 @@
+* {
+margin: 0;
+padding: 0;
 
-
+}
+.navbar{
+max-height: 80px;
+}
+.nav-right{
+left: 0;
+}
+.nav-left{
+float: left;
+}
+.navimg{
+    max-height: 30px;
+}
+.d-flex{
+    display: flex;
+    flex-flow: nowrap;
+    align-content: flex-start;
+}
+.header{
+    color: #666;
+    margin-left: 260px;
+}
+.header span {
+    
+    font-size: smaller;
+}
+.headerText{
+/* position: relative; */
+    /* margin-left: 420px; */
+    color: #121212;
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.container{
+    margin-left: 420px;
+    margin-right: 420px;
+}
 
