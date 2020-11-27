@@ -55,17 +55,21 @@
   /* width: 1000px;
   height: 550px; */
 }
-.display-grid{
+
+.display-grid {
   display: grid;
 }
+
 .icons-first {
   align-items: flex-end;
   margin-left: auto;
   display: flex;
 }
-.icons-first a{
+
+.icons-first a {
   margin-left: 10px;
 }
+
 .container {
   margin-left: 420px;
   margin-right: 420px;
@@ -109,12 +113,12 @@
   font-size: 0.75rem;
   color: rgb(102, 102, 102);
 }
+
 .nav-btn button {
   background-color: #326891;
   height: 35px;
   border: none;
   border-radius: 3px;
-
 }
 
 .nav-btn {
