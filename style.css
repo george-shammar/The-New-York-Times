@@ -67,7 +67,6 @@
   margin-left: 10px;
 }
 
-
 .container {
   margin-left: 340px;
   margin-right: 340px;
@@ -76,6 +75,7 @@
   font-size: 1.25rem;
   border-bottom: solid;
 }
+
 .embed {
   width: 700px;
   height: 400px;
@@ -183,14 +183,12 @@ ul {
   list-style-type: none;
 }
 
-
-
-#foot-image{
+#foot-image {
   width: 250px;
   height: 200px;
 }
 
-.foot-container{
+.foot-container {
   display: grid;
   grid-template-columns: 260px 260px 260px;
   grid-template-rows: 300px 300px;
@@ -200,44 +198,50 @@ ul {
   border-width: 1px;
 }
 
-#foot-heading{
+#foot-heading {
   margin-left: 50px;
   font: bold;
 }
-#editor{
-    width: 250px;
-    height: 200px;
-  }
-  .editor-container{
-    display: grid;
-    grid-template-columns: 260px 260px 260px;
-    grid-template-rows: 300px 300px;
-    margin-left: 50px;
-    margin-top: 20px;
-    grid-gap: 10px;
-    
-  }
-  .editor-editor{
-    margin-left: 50px; 
-    font: bold;
-    margin-top: 50px;
-    border-top: bold;
-    border-color: black;
-  }
-#flex{
+
+#editor {
+  width: 250px;
+  height: 200px;
+}
+
+.editor-container {
+  display: grid;
+  grid-template-columns: 260px 260px 260px;
+  grid-template-rows: 300px 300px;
+  margin-left: 50px;
+  margin-top: 20px;
+  grid-gap: 10px;
+}
+
+.editor-editor {
+  margin-left: 50px;
+  font: bold;
+  margin-top: 50px;
+  border-top: bold;
+  border-color: black;
+}
+
+#flex {
   position: relative;
 }
-.most-popular{
+
+.most-popular {
   position: absolute;
   left: 800px;
   bottom: 650px;
   white-space: wrap;
-  list-style-type: none; 
-}
-#list{
   list-style-type: none;
 }
-#bullets{
+
+#list {
+  list-style-type: none;
+}
+
+#bullets {
   margin: 25px;
   margin-right: 40px;
   color: rgb(18, 18, 18);
@@ -246,7 +250,8 @@ ul {
   font-weight: 500;
   line-height: 1.375rem;
 }
-#unordered{
+
+#unordered {
   margin-right: 50px;
   margin: 25px;
   margin-right: 40px;
