@@ -9,7 +9,6 @@
   max-height: 40px;
   display: flex;
   flex-flow: nowrap;
-  height: 35px;
   border-bottom: solid gray 1px;
   border-top: 0;
   border-left: 0;
@@ -52,8 +51,6 @@
 #header-image {
   width: 80%;
   margin: auto;
-  /* width: 1000px;
-  height: 550px; */
 }
 
 .display-grid {
