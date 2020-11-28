@@ -283,3 +283,7 @@ ul {
 .nomargin {
   margin: 0;
 }
+
+.lineunder {
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
