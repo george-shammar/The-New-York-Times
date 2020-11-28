@@ -35,8 +35,6 @@
  Other components of the page requiring strictly other technologies outside of HTML and CSS were left out as beyond the scope of the project.
 
 
-
-
 #Key Markup Elements:
  The HTML contaians the regular sematic tags:
  <header>
