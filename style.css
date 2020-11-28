@@ -241,7 +241,7 @@ ul {
 #most-popular {
   position: absolute;
   left: 800px;
-  bottom: 1200px;
+  top: 1px;
   list-style-type: none;
   font-weight: bold;
 }
