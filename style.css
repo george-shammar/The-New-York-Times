@@ -164,9 +164,9 @@ a:visited {
   flex-direction: row;
 }
 
-.footer-container div {
+/* .footer-container div {
   margin-right: 50px;
-}
+} */
 
 .footer-list a {
   text-decoration: none;
@@ -282,4 +282,7 @@ ul {
 
 .footer-head {
   margin-left: 40px;
+}
+.nomargin{
+  margin: 0
 }
